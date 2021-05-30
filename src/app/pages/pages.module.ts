@@ -18,6 +18,8 @@ import { Grafica1Component } from './grafica1/grafica1.component';
 import { ProgressComponent } from './progress/progress.component';
 import { PagesComponent } from './pages.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 /* import { AppRoutingModule } from '../app-routing.module';
 SOL 1 cuando no renderiza los componentes, se llama al router
 */
@@ -28,7 +30,9 @@ SOL 1 cuando no renderiza los componentes, se llama al router
     Grafica1Component,
     ProgressComponent,
     PagesComponent,
-    AccountSettingsComponent
+    AccountSettingsComponent,
+    PromesasComponent,
+    RxjsComponent
   ],
   imports: [
     CommonModule,

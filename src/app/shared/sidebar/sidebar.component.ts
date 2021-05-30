@@ -14,7 +14,6 @@ export class SidebarComponent implements OnInit {
   constructor(private siderbarService: SidebarService) {
 
     this.menuItems = this.siderbarService.menu;
-    console.log(this.menuItems);
 
   }
 
